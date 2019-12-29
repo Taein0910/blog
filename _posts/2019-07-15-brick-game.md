@@ -9,9 +9,13 @@ share: true
 ---
 
 #### 바로 코드 나갑니다.
+
 > 코드 사용하실 때 Import 되어 있는지 확인하시고, 패키지명과 클래스명은 자기걸로 바꿔주세요.
+
 ---
+
 ## Main.java — 기본 창 띄워줌
+
 ~~~
 package brickBracker;
 import javax.swing.JFrame;
@@ -32,7 +36,9 @@ obj.add(gamePlay);
 ---
 
 ## Gameplay.java — 전체적인 게임로직
-~~~package brickBracker;
+
+~~~
+package brickBracker;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -195,6 +201,7 @@ public void keyTyped(KeyEvent e) {
 ---
 
 ## Mapgenerator.java —블록들과 공 위치 지정&표시
+
 ~~~
 package brickBracker;
 import java.awt.BasicStroke;
@@ -234,4 +241,5 @@ map[row][col] = value;
 ~~~
 
 ## jar file로 export하는 법
+
 > File -> Export -> JAVA -> Runnable JAR file -> Next ->java파일 선택 -> 경로지정 -> next
