@@ -3,27 +3,20 @@ title: About
 permalink: /about/
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+안녕하세요. 저는 윤태인입니다. 만나서 반갑습니다.
 
-## Features
+## 공부하고 있는 것
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+- JAVA
+- Android
 
 
-## Installation
+## 목표
 
-#### Method 1: new master's repository (The Best)
+#### 안드로이드 레이아웃 익숙해지기
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
 
-#### Method 2: gh-pages in existing repository
+#### 안드로이드 앱 만들어보기
 
 1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
 2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
