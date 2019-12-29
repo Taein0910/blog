@@ -32,7 +32,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "Taein"
+  id:               "https-taein0910-github-io-blog"
 
 # URL
 url:                "https://taein0910.github.io" # the base hostname & protocol for your site
