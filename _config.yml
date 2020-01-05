@@ -6,20 +6,8 @@
 name:               "태인"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
   github:           Taein0910
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
   medium:           taein2370
-  tumblr:           your-id
   email:            taein2370@naver.com
 
 copyright:
@@ -32,7 +20,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "Taein"
+  id:               "https-taein0910-github-io-blog"
 
 # URL
 url:                "https://taein0910.github.io" # the base hostname & protocol for your site
