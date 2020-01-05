@@ -51,6 +51,9 @@ nav:
     url:            "/tags"
   - name:           "Github"
     url:            "https://github.com/Taein0910"
+  - name:           "Play Store"
+    url:            "https://play.google.com/store/apps/developer?id=Ice_Cream"
+
 
 # Sass
 sass:
