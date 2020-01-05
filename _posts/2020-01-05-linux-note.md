@@ -3,7 +3,7 @@ layout: post
 title: "리눅스 명령어 정리"
 description: "Linux에서 사용하는 기본 명령어 정리"
 date: 2020-01-05
-tags: [리눅스, 명령어]]
+tags: [리눅스, 명령어]
 comments: true
 share: true
 ---
