@@ -76,11 +76,6 @@ This is an H2
 ``` This is a normal paragraph: This is a code block. end code block. ```
 ~~~
 
-~~~
-~~~
-This is a normal paragraph: This is a code block. end code block. ```
-~~~
-~~~
 
 ## 수평선(문서 나누기)
 
