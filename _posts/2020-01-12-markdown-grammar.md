@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown 문법"
 description: "마크다운 기본 개념 및 문법 정리"
-date: 2020-01-11
+date: 2020-01-12
 tags: [마크다운, markdown, 문법]
 comments: true
 share: true
