@@ -46,6 +46,8 @@ share: true
 - 6주 : 기타 기능 정리
 
 
+![중간 이미지](https://i.imgur.com/baHnEef.png)
+
 
 
 
