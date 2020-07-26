@@ -48,7 +48,6 @@ share: true
 - 6주 : 기타 기능 정리
 
 ## 필요한 기술 문서
-- 기기에 데이터 저장 SharedPreferences(https://kylblog.tistory.com/7)
-
+- [기기에 데이터 저장 SharedPreferences](https://kylblog.tistory.com/7)
 
 
