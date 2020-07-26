@@ -37,6 +37,8 @@ share: true
 - 추가 -> 액티비티 열기 -> 과목이나 카테고리 작성 -> 내용 입력(텍스트, (이미지)) -> 저장 -> 목록 추가
 - 추가 액티비티에 삭제 버튼
 
+![중간 이미지](https://i.imgur.com/baHnEef.png)
+
 ## 일정
 - 1주 : 디자인 및 레이아웃 구성
 - 2주 : TODO 리스트 구현
@@ -45,10 +47,8 @@ share: true
 - 5주 : 보관함 구현
 - 6주 : 기타 기능 정리
 
-
-![중간 이미지](https://i.imgur.com/baHnEef.png)
-
-
+## 필요한 기술 문서
+- 기기에 데이터 저장 SharedPreferences(https://kylblog.tistory.com/7)
 
 
 
