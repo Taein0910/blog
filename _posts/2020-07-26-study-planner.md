@@ -2,7 +2,7 @@
 layout: post
 title: "스터디플래너 앱 계획서"
 description: "공부 계획 관리 앱 계획서"
-date: 2020-02-23
+date: 2020-07-26
 tags: [안드로이드, 개발, 앱기획]
 comments: true
 share: true
