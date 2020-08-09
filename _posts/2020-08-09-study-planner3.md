@@ -85,3 +85,8 @@ datapickerBtn.setOnClickListener(new Button.OnClickListener() {
             }
         };
 ~~~
+
+> 이제 날짜별로 묶어서 데이터를 정리하는 걸 구현해야 한다. Gson이라는 라이브러리를 사용해야 할것 같기도 하다.
+같은 field끼리 다시 리스트화해야 한다.
+
+[수정] 코드를 바꾸어야 하긴 하지만, 아예 데이터를 만들때부터 날짜별로 push하면 되지 않을까?
