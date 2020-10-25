@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Elastic Beanstalk 배포"
+title: "AWS Elastic Beanstalk 배포(1)"
 description: "AWS Elastic Beanstalk Node.js 애플리케이션 배포하기"
 date: 2020-10-24
 tags: [nodeJs, aws, 서버, 개발, Elastic Beanstalk]
