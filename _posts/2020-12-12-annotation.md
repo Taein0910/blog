@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Spring Annotation과 Controller"
-description: "스프링 (부트)에서 사용되는 Annotation과 Controller"
+title: "스프링부트 Annotation"
+description: "스프링 (부트)에서 사용되는 Annotation"
 date: 2020-12-12
 tags: [스프링부트, Annotation, controller, Spring]
 comments: true
