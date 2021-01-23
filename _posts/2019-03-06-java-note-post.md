@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JAVA 개념 정리"
+title: "JAVA 개념 간단하게 정리"
 description: "java 기초 개념 다 정리해드림."
 date: 2019-03-06
 tags: [JAVA, 자바, 프로그래밍]
