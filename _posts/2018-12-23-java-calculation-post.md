@@ -1,53 +1,100 @@
 ---
 layout: post
-title: "JAVA 산술연산자 예제"
-description: "java 산술연산자를 사용한 예제 코드"
+title: "JAVA 연산자"
+description: "java 연산자 개념 정리"
 date: 2018-12-23
 tags: [JAVA, 자바, 프로그래밍]
 comments: true
 share: true
 ---
 
-### 합, 차, 곱, 나머지, 몫 구하는 코드
+### 산술 연산자
+말 그대로 산술하는 연산자이다.
+더하기 빼기 나누기 곱하기와 같은 계산에 사용된다.
+> 더하기(+), 빼기(-), 나누기(/), 곱하기(*), 나머지(%)
+나누기와 곱하기, 나머지는 위의 기호로 표현한다.
 
-   	public static void main(String[] args) {
-		/*
-		  i와 j의 합
-		  i + j;
+타입에 따라 결과가 달라지거나 오류가 나므로 형변환을 이용해 똑같은 타입끼리 계산해야 한다.
 
-		  i와 j의 차
-		  i - j;
+이때 ++와 --는 기술하는 위치에 따라 순서에 차이가 있다.
+연산자를 왼쪽에 작성하면(전치 연산) 먼저 계산을 한 후 그 결과를 사용한다.
+반대로 연산자를 오른쪽에 작성하면(후치 연산) 현재의 값이 사용되고 나서 그 후에 계산을 한다.
+아래 코드를 통해 살펴보자.
+~~~
+int numberA = 1;
+int numberB = 1;
 
-		  i와 j의 곱
-		  i * j;
+System.out.println(numberA+numberB); //더하기
+System.out.println(numberA-numberB); //빼기
+System.out.println(numberA*numberB); //곱하기 
+System.out.println(numberA/numberB); //나누기
+System.out.println(numberA%numberB); //나머지 
+System.out.println(++numberA); //2 
+System.out.println(numberB++); //1
+System.out.println(numberB); //2
+~~~
+    
+---
 
-		  i를 j로 나눈 몫
-		  i / j;
+### 비트연산자
+비트 연산자는 숫자값의 비트 연산을 할 수 있는 연산자다.
 
-		  i를 j로 나눈 나머지
-		  i % j;
-		 */
+| 연산자 | 설명          | 예                                                  |
+|--------|---------------|-----------------------------------------------------|
+| ~      | 비트의 반전   | a = ~a;                                             |
+| &      | 비트 단위 AND | 1 & 1 //1반환 그 외는 0                             |
+| |     | 비트 단위 OR  | 0\|0 //0반환 그 외는 1                              |
+| ^      | 비트 단위 XOR | 두 개의 비트가 서로 다른 경우에 1 반환              |
+| <<     | 왼쪽 shift    | a << 2 //변수 a를 2비트만큼 왼쪽으로 이동           |
+| >>     | 오른쪽 shift  | a >> 2 //변수 a를 2비트만큼 오른쪽으로 이동         |
+| >>>    | 오른쪽 shift  | >>와 동일한 연산 채워지는 비트가 부호와 상관 없이 0 |
 
-		int a = 7;
-		int b = 3;
 
-		//c는 a와 b의 합
-		int c = a+b;
+---
 
-		//d는 a와 b의 차
-		int d = a-b;
+### 관계연산자
+관계 연산자는 2개의 값을 비교해 true/false를 반환하는 연산자이다.
+| 연산자 | 설명          | 예                                                  |
+|--------|---------------|-----------------------------------------------------|
+| >      | 왼쪽 항이 크면 true, 아니면 false 반환   | num > 3;                                            |
+| <      | 왼쪽 항이 작으면 true, 아니면 false 반환 | num < 3;                             |
+| >=     | 왼쪽 항이 오른쪽 항보다 크거나 같으면 ture, 아니면 false 반환 | num >= 3;                              |
+| <=     | 왼쪽 항이 오른쪽 항보다 작거나 같으면 true, 아니면 false 반환 | num <= 3;              |
+| ==     | 두 개 항의 값이 같으면 true, 아니면 false 반환    | num == 3;          |
+| !=     | 두 개 항이 다르면 true, 아니면 false 반환  | num != 3;         |
 
-		//e는 a와 b의 곱
-		int e = a*b;
 
-		//f는 a를 b로 나눈 나머지
-		int f = a%b;
+---
 
-		System.out.printf("c는: %d\n", c);
-		System.out.printf("d는: %d\n", d);
-		System.out.printf("e는: %d\n", e);
-		System.out.printf("f는: %d\n", f);
-	}
+### 논리연산자
+논리 연산자는 참과 거짓을 판정하는 논리 연산을 실시하기 위한 연산자이다.
+| 연산자 | 설명          | 예                                                  |
+|--------|---------------|-----------------------------------------------------|
+| &&      | 두 항 모두 참인 경우에만 참을 반환한다.   | (5 > 3) && (5 > 2);                                             |
+| ||      | 두 항 중 하나의 항만 참이면 참을 반환한다. | (5 > 3) || (5 < 2);                           |
+| !     | 참인 경우 거짓으로 바꾸고, 거짓인 경우 참으로 바꾼다  | !(5 > 3);                              |
 
+~~~
+boolean flag1 = true;
+        boolean flag2 = false;
+        System.out.println(conditionA || conditionB); //true
+	System.out.println(conditionA && conditionB); //false
+~~~
+
+---
+
+### 삼항연산자
+> 조건식? 결과1: 결과2;
+조건식이 ture이면 결과1을 실행하고 false면 결과2를 실행하라는 조건문을 만들어내는 연산자 이다.
+
+~~~
+int num3= (5>3)? 10:20;
+System.out.println(num3); // 10
+
+int num4 = 10;
+int num5 = 20;
+int max = (num4 > num5)?num4:num5;
+System.out.println(max); //20
+~~~
 --- 
 
